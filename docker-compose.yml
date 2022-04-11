@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  fastapi:
+    image: fastapi-image
+    ports:
+      - "8081:80"
+    volumes:
+      - ./app:/code/app
